@@ -1,0 +1,16 @@
+[package]
+name = "broad-code-backend"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+diesel = {version="1.4.1", features=["postgres", "uuidv07"]}
+diesel_cli = { version = "1.4.1", default-features = false, features = ["postgres"] }
+rocket = { version = "0.5.0-rc.2", features = ["json"] }
+rocket_sync_db_pools = { version = "0.1.0-rc.2", features = ["diesel_postgres_pool"] }
+serde = "*"
+dotenvy = "0.15"
+jsonwebtoken = "8.2.0"
+chrono = "*"

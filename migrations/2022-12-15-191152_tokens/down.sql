@@ -1,0 +1,1 @@
+DROP TABLE broad_code_session_token;

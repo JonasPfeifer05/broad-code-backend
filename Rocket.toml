@@ -1,0 +1,2 @@
+[default.databases.my_db]
+url = "postgres://postgres:Jonaspf05@127.0.0.1:5432/postgres"
